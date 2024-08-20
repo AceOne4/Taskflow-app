@@ -14,23 +14,47 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## TaskFlow
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+TaskFlow is a comprehensive Task Management and Collaboration Tool designed to streamline project management, enhance team collaboration, and boost productivity. With features such as real-time chat, file sharing, calendar integration, and detailed reporting, TaskFlow provides a centralized platform for managing tasks, projects, and teams.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+User Authentication
 
-To learn more about Next.js, take a look at the following resources:
+Sign up, log in, log out
+OAuth integration (Google, GitHub, etc.)
+Dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Overview of current projects and tasks
+User performance metrics
+Project overview
+Project Management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Create, edit, delete projects
+Assign users to projects
+Task Management
 
-## Deploy on Vercel
+Create, edit, delete tasks
+Assign tasks to users
+Set due dates, priorities, and status tracking
+Collaboration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Real-time chat
+Comments and @mentions
+Calendar Integration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Sync tasks and deadlines with the calendar
+Separate week and day views
+24-hour time slot tables
+
+Generate and export detailed reports
+
+## Technology Stack
+
+Next js React
+Tailwind CSS
+Zod for form validation
+Pusher
+Next js
+MongoDB with Mongoose for data storage

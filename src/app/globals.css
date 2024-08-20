@@ -3,31 +3,81 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --primary-color: #4a90e2;
+  --secondary-color: #50e3c2;
+  --accent-color: #f5a623;
+  --background-color: #171717;
+  --text-color: #ffffff;
+  --error-color: #d0021b;
+  --success-color: #7ed321;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
+a {
+  color: var(--primary-color);
+}
+
+button.primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+button.secondary {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: white;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: white;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.logoColor {
+  color: #6765fe;
+}
+* {
+  box-sizing: border-box;
+} /* ReactCalendar.css */
+.react-calendar {
+  background-color: #2d2d2d !important; /* Dark gray background */
+  color: white !important; /* Text color */
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.react-calendar__navigation button {
+  color: white !important;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  color: #b3b3b3 !important; /* Light gray for weekdays */
+}
+
+.react-calendar__tile {
+  background-color: #1a1a1a !important; /* Darker background for tiles */
+  border-radius: 8px !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #4a90e2 !important; /* Blue for active tile */
+  color: white !important;
+}
+
+.react-calendar__tile--now {
+  background-color: #4a4a4a !important; /* Different shade for today's date */
+  color: white !important;
 }

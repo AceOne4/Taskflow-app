@@ -1,0 +1,148 @@
+{
+  "id": "ngr001",
+  "name": "New Giza Residential",
+  "description": "A premium residential project offering luxurious living spaces in the New Giza area.",
+  "location": {
+    "address": "New Giza, Giza, Egypt",
+    "coordinates": {
+      "latitude": 29.95,
+      "longitude": 31.05
+    }
+  },
+  "details": {
+    "startDate": "2023-01-01",
+    "expectedCompletionDate": "2025-12-31",
+    "currentStatus": "Under Construction"
+  },
+  "budget": {
+    "totalBudget": 50000000,
+    "spentToDate": 20000000,
+    "remainingBudget": 30000000
+  },
+  "tasks": [
+    {
+      "id": "task001",
+      "name": "Foundation Work",
+      "description": "Excavation and laying the foundation.",
+      "assignedTo": "John Doe",
+      "status": "Completed",
+      "startDate": "2023-01-01",
+      "endDate": "2023-03-01",
+      "duration": "2 months"
+    },
+    {
+      "id": "task002",
+      "name": "Structural Work",
+      "description": "Building the structural framework.",
+      "assignedTo": "Jane Smith",
+      "status": "In Progress",
+      "startDate": "2023-03-02",
+      "endDate": "2023-12-01",
+      "duration": "9 months"
+    },
+    {
+      "id": "task003",
+      "name": "Interior Work",
+      "description": "Finishing the interiors of units.",
+      "assignedTo": "Tom Brown",
+      "status": "Not Started",
+      "startDate": "2024-01-01",
+      "endDate": "2024-09-30",
+      "duration": "9 months"
+    },
+    {
+      "id": "task004",
+      "name": "Landscaping",
+      "description": "Developing gardens and communal areas.",
+      "assignedTo": "Emily White",
+      "status": "Not Started",
+      "startDate": "2024-10-01",
+      "endDate": "2024-12-31",
+      "duration": "3 months"
+    },
+    {
+      "id": "task005",
+      "name": "Final Inspection",
+      "description": "Final inspection and quality check.",
+      "assignedTo": "Michael Green",
+      "status": "Not Started",
+      "startDate": "2025-01-01",
+      "endDate": "2025-02-28",
+      "duration": "2 months"
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "John Doe",
+      "role": "Project Manager",
+      "contact": {
+        "phone": "+20 2 12345678",
+        "email": "john.doe@newgizaresidential.com"
+      }
+    },
+    {
+      "name": "Jane Smith",
+      "role": "Structural Engineer",
+      "contact": {
+        "phone": "+20 2 23456789",
+        "email": "jane.smith@newgizaresidential.com"
+      }
+    },
+    {
+      "name": "Tom Brown",
+      "role": "Interior Designer",
+      "contact": {
+        "phone": "+20 2 34567890",
+        "email": "tom.brown@newgizaresidential.com"
+      }
+    },
+    {
+      "name": "Emily White",
+      "role": "Landscape Architect",
+      "contact": {
+        "phone": "+20 2 45678901",
+        "email": "emily.white@newgizaresidential.com"
+      }
+    },
+    {
+      "name": "Michael Green",
+      "role": "Quality Inspector",
+      "contact": {
+        "phone": "+20 2 56789012",
+        "email": "michael.green@newgizaresidential.com"
+      }
+    }
+  ],
+  "milestones": [
+    {
+      "name": "Project Kickoff",
+      "date": "2023-01-01",
+      "description": "Official start of the project."
+    },
+    {
+      "name": "Foundation Completion",
+      "date": "2023-03-01",
+      "description": "Completion of the foundation work."
+    },
+    {
+      "name": "Structural Work Completion",
+      "date": "2023-12-01",
+      "description": "Completion of the structural framework."
+    },
+    {
+      "name": "Interior Work Completion",
+      "date": "2024-09-30",
+      "description": "Completion of interior finishes."
+    },
+    {
+      "name": "Landscaping Completion",
+      "date": "2024-12-31",
+      "description": "Completion of landscaping and communal areas."
+    },
+    {
+      "name": "Final Inspection",
+      "date": "2025-02-28",
+      "description": "Final inspection and project handover."
+    }
+  ]
+}

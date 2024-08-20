@@ -1,0 +1,91 @@
+taskflow/
+├── node_modules/
+├── app/
+│   ├── api/
+│   │   ├── auth/
+│   │   │   └── [...nextauth]/route.js
+│   │   ├── projects/
+│   │   │   └── route.js
+│   │   ├── tasks/
+│   │   │   └── route.js
+│   │   └── notifications/
+│   │       └── route.js
+│   ├── auth/
+│   │   ├── login/
+│   │   │   └── page.js
+│   │   ├── signup/
+│   │   │   └── page.js
+│   │   └── recover/
+│   │       └── page.js
+│   ├── dashboard/
+│   │   └── page.js
+│   ├── projects/
+│   │   ├── page.js
+│   │   ├── [projectId]/
+│   │   │   ├── page.js
+│   │   │   ├── files/
+│   │   │   │   └── page.js
+│   │   │   └── chat/
+│   │   │       └── page.js
+│   │   ├── create/
+│   │   │   └── page.js
+│   │   └── edit/
+│   │       └── [projectId]/
+│   │           └── page.js
+│   ├── tasks/
+│   │   ├── page.js
+│   │   ├── [taskId]/
+│   │   │   ├── page.js
+│   │   │   ├── comments/
+│   │   │   │   └── page.js
+│   │   │   └── files/
+│   │   │       └── page.js
+│   │   ├── create/
+│   │   │   └── page.js
+│   │   └── edit/
+│   │       └── [taskId]/
+│   │           └── page.js
+│   ├── calendar/
+│   │   └── page.js
+│   ├── notifications/
+│   │   └── page.js
+│   ├── reports/
+│   │   └── page.js
+│   ├── layout.js
+│   ├── page.js
+│   └── global.css
+├── components/
+│   ├── ProjectList.js
+│   ├── TaskList.js
+│   ├── TaskCard.js
+│   ├── Navbar.js
+│   └── Chat.js
+├── models/
+│   ├── Project.js
+│   ├── Task.js
+│   ├── User.js
+│   ├── Notification.js
+│   └── Report.js
+├── public/
+│   └── images/
+├── styles/
+│   └── globals.css
+├── utils/
+│   ├── api.js
+│   ├── auth.js
+│   ├── db.js
+│   └── helpers.js
+├── store/
+│   ├── index.js
+│   ├── projectSlice.js
+│   ├── taskSlice.js
+│   ├── userSlice.js
+│   ├── notificationSlice.js
+│   └── reportSlice.js
+├── .env
+├── .gitignore
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── store.js
